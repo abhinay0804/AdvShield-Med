@@ -1,0 +1,13 @@
+torch>=2.0
+torchvision>=0.15
+torchattacks>=3.4
+wandb
+scikit-learn
+matplotlib
+numpy
+pandas
+Pillow
+tqdm
+
+# --- Phase 5 stretch goals only — install when starting Phase 5 ---
+# pytorch-grad-cam>=1.4

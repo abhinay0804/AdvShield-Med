@@ -1,0 +1,4 @@
+label,accuracy,precision,recall,f1
+Clean images (no attack),1.0000,0.0000,0.0000,0.0000
+FGSM ε=0.03 (seen attack),1.0000,1.0000,1.0000,1.0000
+PGD ε=0.03 (unseen — generalization test),0.9920,1.0000,0.9920,0.9960

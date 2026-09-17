@@ -1,0 +1,10 @@
+Metric,Value
+Diagnostic model accuracy — clean images,0.9613
+Diagnostic model accuracy — under FGSM (ε=0.03),0.7133
+Diagnostic model accuracy — under PGD (ε=0.03),0.0
+Gatekeeper detection F1 — FGSM (seen attack),1.0
+"Gatekeeper detection F1 — PGD (unseen, generalization test)",0.996
+End-to-end pipeline — clean images (gate accuracy),1.0000
+End-to-end pipeline — FGSM detection rate,1.0000
+End-to-end pipeline — PGD detection rate,0.9920
+Pipeline rejection threshold (tuned),0.5
