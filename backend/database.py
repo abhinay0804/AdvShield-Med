@@ -7,7 +7,7 @@ os.makedirs("uploads/heatmaps", exist_ok=True)
 os.makedirs("uploads/originals", exist_ok=True)
 
 # Using asyncpg for PostgreSQL
-DATABASE_URL = "postgresql+asyncpg://postgres:postgrespassword@localhost:5432/advshield_med"
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql+asyncpg://postgres:postgres@localhost:5432/advshield_med")
 
 engine = create_async_engine(DATABASE_URL, echo=True)
 AsyncSessionLocal = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
