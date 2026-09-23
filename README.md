@@ -1,3 +1,4 @@
+![CI](https://github.com/abhinay0804/AdvShield-Med/actions/workflows/ci.yml/badge.svg)
 <div align="center">
 
 # 🛡️ AdvShield-Med
